@@ -7,7 +7,7 @@ import tickHandler from './routeHandler/tickHandler';
 import resetHandler from './routeHandler/resetHandler';
 import statusHandler from './routeHandler/statusHandler';
 
-const port = 8080;
+const port = 8090;
 const server = express();
 
 const app = new App();

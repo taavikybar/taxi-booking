@@ -14,16 +14,16 @@ Compile TypeScript files and start the application
 	
 API Endpoints:
 
-* `http://localhost:8080/api/book`
+* `http://localhost:8090/api/book`
 	* POST only
 	* accepts JSON data in the format:
 		* `{ source: { x: x1, y: y1 }, destination: { x: x2, y: y2 }}`
 	* books the nearest available car and returns response in the format:
 		* `{ car_id: id, total_time: t }`
 	* if no car is available, empty response is returned
-* `http://localhost:8080/api/tick` - moves all booked cars by 1 distance unit and returns current cars positions
-* `http://localhost:8080/api/reset` - resets all cars to (0, 0) and unbooks them and returns current cars positions
-* `http://localhost:8080/api/status`- returns current cars positions without any modifications made
+* `http://localhost:8090/api/tick` - moves all booked cars by 1 distance unit and returns current cars positions
+* `http://localhost:8090/api/reset` - resets all cars to (0, 0) and unbooks them and returns current cars positions
+* `http://localhost:8090/api/status`- returns current cars positions without any modifications made
 	
 ---
 #### Tests

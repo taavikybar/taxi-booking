@@ -1,6 +1,6 @@
 import requests
 import json
-server_url = 'http://localhost:8080/api'
+server_url = 'http://localhost:8090/api'
 
 
 def tick(n=1):
